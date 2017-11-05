@@ -29,7 +29,7 @@ s <- rbind(subject_train, subject_test)
 # Read features labels
 features <- read.table("./UCI HAR Dataset/features.txt")
 
-# Friendly names to features column
+# Names to features column
 names(features) <- c('feat_id', 'feat_name')
 
 # Search for matches to argument mean or standard deviation (sd)  within each element of character vector
